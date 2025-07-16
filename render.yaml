@@ -14,3 +14,15 @@ services:
     autoDeploy: true
     previewsEnabled: true
     previewPlan: free
+{
+  "name": "kovalenko-candles",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
+  
